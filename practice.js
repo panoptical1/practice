@@ -1,12 +1,20 @@
-function makeCoffee(sugarAmountInGrams, sugarType, milkFat){
-    if (null){
-        var instructions = "boil water,";
-        instructions += "pour into cup,";
-        instructions += "add coffe granules,";
-        instructions += "stir,";
-        instructions += " add " + sugarAmountInGrams + " grams of " + sugarType + " sweetener, ";
-        instructions += " add " + milkFat + " milk ";
-        return instructions;
-    }
-        else console.log("You didn't put in any ingredients");
-}
+var computer = {
+    motherboard: [ 
+        {Gigabyte: ["Aorus Gaming 5", "Aorus Gaming 7", "Model 6", "Other Model"]},
+        {MSI: ["MEG", "EEG"]}, 
+        {ASUS: ["Hero VII", "RAMPAGE", "TUF"]},
+    ],
+    Chipset: [
+        {AMD: ["B350", "B450", "x470", "X570"]},
+        {Intel: ["Z170", "Z270"]},
+    ],
+
+    CPU: [ 
+        {AMD: ["Zen", "Zen+", "Bulldozer", "Phenom" ]}, 
+        {Intel: ["Coffee Lake", "Kaby Lake", "Sky Lake"]}, 
+    ],
+    RAM: [ 
+        {DDR3: ["8GB", "16GB", "32GB"]}, 
+        {DDR4:["8GB", "16GB", "32GB"]},
+    ]
+};
